@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #999;
+  background-color: #f7f7f9;
+  font-family: "PT Sans",Calibri,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+
+.button-block {
+  margin: 150px auto;
+  width: 600px;
+  text-align: left;
+
+}
+
+.button {
+  padding: 20px;
+  min-height: 80px;
+  background-color: #fff;
+}
+
+.btn {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: normal;
+
+  text-align: center;
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  user-select: none;
+
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.btn:focus {
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
+
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+.copy {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.card {
+  overflow: hidden;
+  font-size: 1.2rem;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  padding: 0 20px;
+  height: 0;
+  transition: border 0.4s, height 0.6s, padding 0.6s linear;
+}
+
+.showCard {
+  border: solid 1px #999;
+  padding: 20px;
+  height: 100px;
+  transition: border 0.4s, height 0.6s, padding 0.6s linear;
+}
+
